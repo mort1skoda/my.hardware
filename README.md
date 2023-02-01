@@ -1,15 +1,12 @@
 # my.hardware
-## my computers
-### my monitors
-#### my keyboards
-##### my mice
-##### my sound
+## Branch: mini
+### check the: $BRANCH variable in .bash_aliases
+#### git checkout mini
 
 MY COMPUTERS:
 =============
 <pre>
 Gigabyte AM1SH
 Asus K50
-Dell
-Rasperry pi 2
 </pre>
+
