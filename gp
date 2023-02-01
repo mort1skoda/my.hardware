@@ -2,7 +2,7 @@
 
 
 
-git status -b
+git status -b master
 git add --all
 
 
