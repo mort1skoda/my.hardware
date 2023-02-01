@@ -1,10 +1,16 @@
 #!/bin/bash
 
-echo "Branch=$BRANCH"
+
+
+git status -b
+git add --all
+
+
+DATE=$(date +'%Y-%m-%d %H:%M:%S %aday')
+git commit -m "$DATE"
+
 exit
 
-git status
-git add --all
-git push -u origin $BRANCH
+git push -u origin master
 
 
