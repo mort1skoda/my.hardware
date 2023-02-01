@@ -10,6 +10,11 @@ git push -u origin master
 adjust the exported variable $BRANCH in ,bash_aliases
 to comply with your current working branch
 
+
+Switch to branch mini:
+git checkout mini
+
+
 git push -u origin $BRANCH
 
 
