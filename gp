@@ -1,10 +1,10 @@
 #!/bin/bash
 
-echo "Branch=$BRANCH"
 
 
 
-git status -b $BRANCH
+
+git status -b mini
 
 
 
@@ -13,12 +13,14 @@ git add --all
 
 
 
-source ~/.bash_aliases
+DATE=$(date +'%Y-%m-%d %H:%M:%S %aday')
 e $DATE
+exit
+
 git commit -m "$DATE"
 
 
 
-git push -u origin $BRANCH
+git push -u origin mini
 
 
