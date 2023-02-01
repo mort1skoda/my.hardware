@@ -8,7 +8,7 @@ git remote add origin https://github.com/mort1skoda/my.hardware.git
 git push -u origin master
 </pre>
 
-</pre>
-git push -u origin master
 <pre>
+git push -u origin master
+</pre>
 
